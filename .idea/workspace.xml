@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7950ec66-6619-44b7-aab0-2bb79bd77d87" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map.js" afterPath="$PROJECT_DIR$/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style" afterPath="$PROJECT_DIR$/style" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HCDE511.iws" />
@@ -255,7 +251,11 @@
       <created>1414742609708</created>
       <updated>1414742609708</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="trying to draw a map">
+      <created>1414829901648</created>
+      <updated>1414829901648</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -301,7 +301,8 @@
     <MESSAGE value="init3" />
     <MESSAGE value="init4" />
     <MESSAGE value="first lines of codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="first lines of codes" />
+    <MESSAGE value="trying to draw a map" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to draw a map" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
