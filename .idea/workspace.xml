@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7950ec66-6619-44b7-aab0-2bb79bd77d87" name="Default" comment="">
+    <list default="true" id="7950ec66-6619-44b7-aab0-2bb79bd77d87" name="Default" comment="a map">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/d3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/states_usa.topo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topojson.v1.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HCDE511.iws" />
@@ -28,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06417112" vertical-offset="204" max-vertical-offset="765">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.45454547" vertical-offset="0" max-vertical-offset="765">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -269,7 +272,11 @@
       <created>1414879610355</created>
       <updated>1414879610355</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="a map">
+      <created>1414879629270</created>
+      <updated>1414879629270</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -336,7 +343,8 @@
     <MESSAGE value="init4" />
     <MESSAGE value="first lines of codes" />
     <MESSAGE value="trying to draw a map" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to draw a map" />
+    <MESSAGE value="a map" />
+    <option name="LAST_COMMIT_MESSAGE" value="a map" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -378,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06417112" vertical-offset="204" max-vertical-offset="765">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.45454547" vertical-offset="0" max-vertical-offset="765">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding />
         </state>
       </provider>
