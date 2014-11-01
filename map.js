@@ -14,12 +14,11 @@ var svg=d3.select("#map")
     .append("svg")
     .attr("width",width)
     .attr("height",height);
-
-d3.json("/states_usa.topo.json",function(error,topology){
+d3.json("states_usa.topo.json",function(error, topology){
     //g.append("g")
         //.attr("id","states")
         svg.selectAll("path")
-        .data(topojson.feature(topology,topology.objects.countries).features)
+        .data(topojson.feature(topology,topology.objects.states_usa).features)
         .enter()
         .append("path")
         .attr("id", function(d) { return d.id; })
