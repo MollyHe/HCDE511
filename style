@@ -9,6 +9,10 @@
     overflow: hidden;
 }
 
+#parellel_coords .background path{
+    color: #ddd;
+}
+
 svg {
     font: 10px sans-serif;
 }

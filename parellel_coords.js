@@ -1,6 +1,7 @@
 /**
  * Created by menglinhe on 11/5/14.
  */
+
 var margin = {top: 30, right: 10, bottom: 10, left: 10},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
@@ -35,11 +36,15 @@ d3.csv("university.csv", function(error, university) {
         .selectAll("path_univ")
         .data(university)
         .enter().append("path_univ")
-        .attr("d", path);
+        .attr("d", path)
+        //.style("fill", 'none')
+        //.style("stroke",'#ddd')
+        //.style("shape-rendering",'crispEdges');
 
     // Add blue foreground lines for focus.
     foreground = svg_par.append("g")
         .attr("class", "foreground")
+        //.style("stroke",'blue')
         .selectAll("path_univ")
         .data(university)
         .enter().append("path_univ")
