@@ -5,24 +5,9 @@
         <title>Dollar & Sense</title>
 
         <link rel="stylesheet" href="style.css"/>
-<script>
-    var width=1000, height=500;
-
-    var proj=d3.geo.albersUsa()
-            .center([0,0])
-            .translate([width/2,height/2]);
-
-    var path=d3.geo.path()
-            .projection(proj);
-
-    var svg=d3.select("#map")
-            .append("svg")
-            .attr("width",width)
-            .attr("height",height);
-</script>
-
 
     </head>
+
     <body>
         <span>
             <h1>Dollar & Sense</h1>
@@ -32,7 +17,8 @@
         </span>
 
         <div id="charts">
-            <div id="map" class="display"></div>
+            <div id="map"></div>
+            <div id="parellel_coords"></div>
         </div>
 
 
@@ -42,5 +28,6 @@
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="http://d3js.org/topojson.v1.min.js"></script>
     <Script src="map.js"></Script>
+    <script src="parellel_coords.js"></script>
 
 </html>

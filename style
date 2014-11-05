@@ -7,3 +7,8 @@ path {
 path:hover {
     fill: red;
 }
+
+svg{
+    font:10px sans-serif;
+}
+

@@ -10,14 +10,14 @@ var projection=d3.geo.albersUsa()
 var path=d3.geo.path()
     .projection(projection);
 
-var svg=d3.select("#map")
+var svg_map=d3.select("#map")
     .append("svg")
     .attr("width",width)
     .attr("height",height);
 d3.json("states_usa.topo.json",function(error, topology){
     //g.append("g")
-        //.attr("id","states")
-        svg.selectAll("path")
+    //.attr("id","states")
+    svg_map.selectAll("path")
         .data(topojson.feature(topology,topology.objects.states_usa).features)
         .enter()
         .append("path")
