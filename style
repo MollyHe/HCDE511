@@ -1,14 +1,42 @@
-path {
-    fill: #ccc;
+#charts{
+    padding: 10px 0;
+}
+
+#map{
+    border-bottom: solid 1px #aaa;
+    border-top: solid 1px #aaa;
+    height: 500px;
+    overflow: hidden;
+}
+
+svg {
+    font: 10px sans-serif;
+}
+
+.background path {
+    fill: none;
+    stroke: #ddd;
+    shape-rendering: crispEdges;
+}
+
+.foreground path {
+    fill: none;
+    stroke: steelblue;
+}
+
+.brush .extent {
+    fill-opacity: .3;
     stroke: #fff;
-    stroke-width: .5px;
+    shape-rendering: crispEdges;
 }
 
-path:hover {
-    fill: red;
+.axis line,
+.axis path {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
 }
 
-svg{
-    font:10px sans-serif;
+.axis text {
+    text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
 }
-
