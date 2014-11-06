@@ -44,3 +44,20 @@ svg {
 .axis text {
     text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
 }
+
+#fig {
+    width: 880px;
+    height: 460px;
+}
+
+#title {
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    padding: 10px;
+    background: white;
+}
+
+large {
+    font-size: medium;
+}
