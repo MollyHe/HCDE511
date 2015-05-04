@@ -4,11 +4,11 @@
         <meta charset="UTF-8">
         <title>Dollar & Sense</title>
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../styles/site.css">
 
     </head>
 
-    <body>
+    <body ng-app="hcde511">
         <span>
             <h1>Dollar & Sense</h1>
             <span id="instructions">
@@ -24,20 +24,28 @@
         </div>
 
 
+        <div ng-controller="MainController">
+            <h3>{{title}}</h3>
+            <!--<input type="text" ng-model="title">-->
+        </div>
+
     </body>
 
-    <Script src="lib/angular.min.js"></Script>
-    <Script src="lib/jquery-1.11.2.min.js"></Script>
+    <Script src="../lib/angular.min.js"></Script>
+    <Script src="../lib/jquery-1.11.2.min.js"></Script>
+
+    <Script src="../controllers/app.js"></Script>
+    <Script src="../controllers/MainController.js"></Script>
 
     <Script src="../charts/barChart.js"></Script>
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="http://d3js.org/topojson.v1.min.js"></script>
     <Script src="../charts/map.js"></Script>
-    <script src="parellel_coords.js"></script>
+    <script src="../charts/parellel_coords.js"></script>
 
     <script src="http://syntagmatic.github.io/parallel-coordinates/d3.parcoords.js"></script>
     <link rel="stylesheet" type="text/css" href="http://syntagmatic.github.io/parallel-coordinates/d3.parcoords.css">
-    <script src="parellel_coords2.js"></script>
+    <script src="../charts/parellel_coords2.js"></script>
 
 </html>
 
